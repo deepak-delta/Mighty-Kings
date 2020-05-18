@@ -1,0 +1,434 @@
+/* ==========================================================================
+
+	Responsive CSS Stylesheet.
+
+	This stylesheet contains responsive styles for Kallyas Template.
+	We'll just add tweaks however this will contains the future 
+	responsive updates styles of this template. 
+	
+	Do not change nothing as it will be constantly updated and your work might 
+	get overwritten.
+
+========================================================================== */
+
+
+.clearfix { *zoom: 1; }
+.visible-xxs { display: none!important;}
+@-ms-viewport { width: device-width;}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*  Kallyas EDIT
+/*-----------------------------------------------------------------------------------*/
+
+
+/** Desktop **/
+@media (min-width: 1200px) {
+
+	body input {margin-left: 0; }
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+
+	
+	/**** Header ****/
+
+	/*** Header Styles ***/
+	
+	/** Header style 8 **/
+
+	/** Header style 9 **/
+	
+	/** Header style 12 **/
+
+
+
+	/**** Elements ****/
+
+
+    /* BOXED VERSION tweaks */
+
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  end Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+}
+
+
+/** Laptop **/
+@media (max-width: 1200px) {
+	/*-----------------------------------------------------------------------------------*/
+	/*  Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+
+	/**** Header ****/
+	.support-panel-close { top: 5px; right: 5px; border-radius: 0; width: 40px; height: 40px; line-height: 40px;}
+
+
+	/**** Elements ****/
+	.kl-iconbox--fright .kl-iconbox__icon-wrapper,
+	.kl-iconbox--fleft .kl-iconbox__icon-wrapper { float: none;}
+
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  end Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+}
+
+
+/** Laptop+ **/
+@media (min-width: 991px) {
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+
+	/**** Header ****/
+
+	body.one-page .main-nav > ul > li > a {font-size: 13px;}
+
+
+	/*** Menu ***/
+
+	/*** Header Styles ***/
+	/** Header style 2 **/
+
+	/** Header style 3 **/
+
+	/** Header style 4 **/
+
+	/** Header style 11 **/
+
+	/** Header style 12 **/
+
+
+	/* Elements */
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  end Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+}
+
+
+/** Laptop **/
+@media (min-width: 992px) and (max-width: 1199px) {
+	/*-----------------------------------------------------------------------------------*/
+	/*  Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+
+	/**** Header ****/
+
+	/*** Header Styles ***/
+	/** Header style 1 **/
+	.site-header.style1 .main-nav { margin-left: 40px; }
+	.site-header.style1 .main-nav > ul > li > a { font-size: 11px;}
+
+	/**** Elements ****/
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+}
+
+
+/** Large Tablets **/
+@media (max-width: 991px) {
+
+	body {padding-top: 0; }
+
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+	body .kl-slideshow .scrollbarContainer {width:100%;}
+	
+
+	/**** Header ****/
+
+	/*** Header Styles ***/
+	/** Header style 3 **/
+
+	/** Header style 5 **/
+
+
+	/**** Elements ****/
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  end Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+}
+
+
+/** Tablets (landscape mode)  **/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	input {margin-left: 0; }
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+
+	/**** Header ****/
+	/*** Header Styles ***/
+
+	/** Header style 2 **/
+
+	/** Header style 3 **/
+	
+
+	/**** Elements ****/
+	.kl-slideshow.iosslider-slideshow { padding-bottom: 80% !important;}
+
+	.how_to_shop > .row {margin-bottom:10px;font-size:12px;}
+	.hover-box > img {margin: 10px 10px 8px 5px;}
+	.hover-box > h3 {font-size:18px}
+
+
+	/**** Footer ****/
+	#footer .copyright {float:left;}
+
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  end Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+}
+
+
+/** Tablets+  **/
+@media (min-width: 768px) {
+	/*-----------------------------------------------------------------------------------*/
+	/*  Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+
+	/**** Header ****/
+
+
+	/* Elements */
+
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  end Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+}
+
+
+/** Tablets (portrait mode)  **/
+@media (min-width : 481px) and (max-width : 768px) {
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+
+	/**** Header ****/
+
+	/*** Header Styles ***/
+	
+	/** Header style 1 **/
+	.site-header.style1 .zn-res-trigger { margin-left: 10px;}
+
+	/** Header style 2 **/
+
+	/** Header style 3 **/
+
+
+	/**** Elements ****/
+	.hover-box > img {margin: 10px 10px 8px 5px;}
+	.hover-box > h3 {font-size:18px}
+
+	.how_to_shop > .row {margin-bottom:10px;font-size:12px;}
+
+	.scrollbarContainer {display:none;}
+
+
+	/**** eCommerce ****/
+
+
+	/**** Footer ****/
+	#footer .copyright {float:left;}
+
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  end Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+}
+
+
+/** Smartphone landscape mode / Mini Tablet **/
+@media (max-width: 767px) {
+
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+
+	/**** Header ****/
+		.site-header { height: auto !important; position: relative !important;}
+		.site-header.cta_button:not(.style3) .header-links-container { margin-right: 45px;}
+		.site-header .xs-icon { font-size:14px; color:#fff; line-height:23px; opacity:1;}
+
+		.topnav > li { margin-left:10px;}
+		.topnav.navRight > li:last-child {margin-right:0;}
+		.support-info { line-height: 20px !important; margin-top: 0;}
+		.kl-cta-ribbon { margin-top:3px;}
+		
+		.site-header .site-logo {width: 100%; height: auto; min-height: 0 !important; max-height: 100px; padding-top: 10px; padding-bottom: 10px;}
+		.logo-container{float: none;text-align: center; overflow: hidden;}
+		.separator.visible-xxs { display: block!important;}
+		.zn-res-trigger { margin-top: 10px;}
+		.site-header .topnav { margin-top: 15px;}
+		.header-leftside-container { overflow: hidden; margin-bottom: 0 !important;}
+
+		.site-header {background-color:#2f2f2f;}
+		
+		/*** Header Styles ***/
+		
+		/** Header style 1 **/
+		/** Style 1 **/
+		.site-header.style1 .site-logo a { display: inline-block;}
+		.site-header.style1 .header-links-container .topnav > li { padding: 0 10px;}
+		.site-header.style1 .topnav.navRight { margin-bottom: 5px; margin-top: 9px;}
+		.site-header.style1 .topnav > li { margin-left: 0;}
+		.site-header.style1 .header-links-container .topnav { margin-left: 0;}
+		.site-header.style1 .header-leftside-container { margin: 11px 0;}
+
+		/** Header style 2 **/
+
+		/** Header style 3 **/
+		
+		/** Header style 4 **/
+
+		/** Header style 5 **/
+
+		/** Header style 6 **/
+
+		/** Header style 8 **/
+		
+		/** Header style 9 **/
+		
+		/** Header style 11 **/
+
+		/** Header style 13 **/
+
+	/**** end Header ****/
+	
+	/**** Sub-Header ****/
+	/**** end Sub-Header ****/
+	
+	
+	/**** Elements ****/
+
+		.kl-slideshow.iosslider-slideshow { padding-bottom: 84%;}
+		.action_box.style3 { margin-top: 50px !important;}
+
+		/* Buttons */
+
+		/* Slideshow */
+		/* Google maps */
+
+		/* Call out Banner */
+
+		/* Css Accordion (Latest posts 1) */
+
+		.iosslider-slideshow .iosSlider { transform: none !important;}
+		.hover-box.hover-box-2 { margin-bottom: 15px;}
+
+
+		.full_width { padding-left: 15px; padding-right: 15px;}
+	/**** end Elements ****/
+
+	/**** Footer ****/
+		#footer .copyright img {margin-bottom: 20px;}
+	/**** end Footer ****/	
+
+
+	/**** eCommerce ****/
+	/**** end eCommerce ****/  
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  end Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+}
+
+
+@media (max-width: 600px) {
+	/*-----------------------------------------------------------------------------------*/
+	/*  Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+	
+	/**** Elements ****/
+	/**** enc Elements ****/
+
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  end Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+}
+
+/** Smartphone portrait mode **/
+@media (max-width: 480px) {
+
+	.visible-xxs {display: block!important; }
+
+	/*-----------------------------------------------------------------------------------*/
+	/*  Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+
+	/**** Header ****/
+		.site-logo {max-width: 100%;}
+		.zn-res-trigger { margin-left: 0; margin-top: 11px;}
+		.action_box_content .ac-buttons a { margin-bottom: 10px;}
+		.header-leftside-container { overflow: visible;}
+
+
+		/*** Header Styles ***/
+		/** Header style 1 **/
+
+
+		/** Header style 2 **/
+
+		.site-header {height:auto !important; position: relative !important;}
+
+		/* Header style 3 */
+
+		/** Header style 4 **/
+		
+		/** Header style 5 **/
+
+		
+
+		/* Header style */
+		.site-header .kl-header-toptext {display: block; width: 100%; clear: left; margin-left: 0; }
+		.site-header .logo-container,
+		.site-header .logo-container .site-logo {float:none; width:100%; clear:both}
+		.site-header .logo-container .site-logo {text-align:center}
+		.site-header .header-links-container .topnav {margin-left:10px}
+	
+		/** Header style 6 **/
+
+		/** Header style 11 **/
+	/**** end Header ****/
+	
+
+	/**** Elements ****/
+		input[type="checkbox"] {border: 1px solid #ccc; }
+
+
+		.action_box_content .ac-buttons a { margin-bottom: 10px;}
+	/**** end Elements ****/
+
+
+	/**** eCommerce ****/
+	/**** end eCommerce ****/
+	
+	/*-----------------------------------------------------------------------------------*/
+	/*  end Kallyas EDIT
+	/*-----------------------------------------------------------------------------------*/
+}
+
+/* FIX IE10 MOBILE  1.6 */
+@-webkit-viewport{width:device-width}
+@-moz-viewport{width:device-width}
+@-ms-viewport{width:device-width}
+@-o-viewport{width:device-width}
+@viewport{width:device-width}

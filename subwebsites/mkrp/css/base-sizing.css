@@ -1,0 +1,212 @@
+
+/*
+* Margins Classes
+* Helper classes for side margins
+*/
+/*
+* Margins Classes - Negative
+* Helper classes for side margins on negative
+*/
+/*
+* Padding Classes
+* Helper classes for side padding
+*/
+
+/*
+* Font-sizes-presets
+*/
+
+/*
+* Height Sizing Presets
+* These are height values from 10 to 10 to set responsive height to a block
+*/
+
+	/*
+	* Float None
+	*/
+
+/*
+ * Float Clearing Presets
+ */
+
+
+
+/*
+ * Width presets
+ */
+
+
+ @media only screen and (max-width: 1199px){
+	/*
+	* Margins Classes
+	* Helper classes for side margins MEDIUM
+	*/
+	/*
+	* Margins Classes - Negative
+	* Helper classes for side margins on negative MEDIUM
+	*/
+	/*
+	* Padding Classes
+	* Helper classes for side padding MEDIUM
+	*/
+
+	/*
+	* Font-sizes-presets
+	*/
+
+	/*
+	* Height Sizing Presets
+	* These are height values from 10 to 10 to set responsive height to a block
+	*/
+
+	/* Reset Columnized Lists */
+
+	/*
+	* Float Clearing Presets
+	*/
+
+	/*
+	* Float None
+	*/
+
+
+	/*
+	* Button Padding Presets
+	*/
+
+	/*
+	 * Width presets
+	 */
+
+	/* Text Center */
+
+}
+
+@media only screen and (max-width: 991px){
+	/*
+	* Margins Classes
+	* Helper classes for side margins SMALL
+	*/
+	/*
+	* Margins Classes - Negative
+	* Helper classes for side margins on negative SMALL
+	*/
+	/*
+	* Padding Classes
+	* Helper classes for side padding SMALL
+	*/
+
+	/*
+	* Font-sizes-presets
+	*/
+
+	/*
+	* Height Sizing Presets
+	* These are height values from 10 to 10 to set responsive height to a block
+	*/
+
+	/* Reset Columnized Lists */
+
+	/*
+	* Float Clearing Presets
+	*/
+
+	/*
+	* Float None
+	*/
+
+	/*
+	* Button Padding Presets
+	*/
+
+	/*
+	 * Width presets
+	 */
+
+	/* Text Center */
+}
+
+@media only screen and (max-width: 767px) {
+	/*
+	* Margins Classes
+	* Helper classes for side margins EXTRA SMALL
+	*/
+	/*
+	* Margins Classes - Negative
+	* Helper classes for side margins on negative EXTRA SMALL
+	*/
+	/*
+	* Padding Classes
+	* Helper classes for side padding EXTRA SMALL
+	*/
+
+	/*
+	* Font-sizes-presets
+	*/
+
+	/*
+	* Height Sizing Presets
+	* These are height values from 10 to 10 to set responsive height to a block
+	*/
+
+	/* Reset Columnized Lists */
+
+	/*
+	* Float Clearing Presets
+	*/
+
+	/*
+	* Float None
+	*/
+
+	/*
+	 * Width presets
+	 */
+
+	/* Text Center */
+}
+
+
+/* Font weight helpers */
+.fw-vthin {font-weight: 100 ;}
+.fw-thin {font-weight: 300 ;}
+.fw-normal {font-weight: 400 ;}
+.fw-semibold {font-weight: 600 ;}
+.fw-bold {font-weight: 700 ;}
+
+/* Font size */
+.fs-14 { font-size: 14px !important;}
+.fs-16 { font-size: 16px ;}
+.fs-18 { font-size: 18px ;}
+.fs-22 { font-size: 22px ;}
+.fs-26 { font-size: 26px ;}
+.fs-28 { font-size: 28px ;}
+.fs-32 { font-size: 32px ;}
+.fs-38 { font-size: 38px ;}
+
+/* Letter spacing */
+/* Letter spacing - Negative */
+
+/* Line Height */
+.lh-32 { line-height: 32px ;}
+.lh-46 { line-height: 46px ;}
+
+/* Opacity helpers */
+
+/* Reset line height */
+
+/* to uppercase */
+
+/* Paddings */
+.p-0 { padding: 0 ;}
+.ptop-0 { padding-top: 0 ;}
+.ptop-60 { padding-top: 60px ;}
+.ptop-65 { padding-top: 65px ;}
+.ptop-80 { padding-top: 80px ;}
+
+.pbottom-0 { padding-bottom: 0 ;}
+.pbottom-15 { padding-bottom: 15px ;}
+.pbottom-60 { padding-bottom: 60px ;}
+.pbottom-80 { padding-bottom: 80px ;}
+
+/* Margins */
